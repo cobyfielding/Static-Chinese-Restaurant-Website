@@ -1,0 +1,327 @@
+/*GLOBAL STYLES*/
+
+/*
+====================================================================================
+GLOBAL STYLES
+====================================================================================
+*/
+
+ /*    
+ * {global attribute tag for CSS}
+ */
+html, body {
+    height:100%;
+}
+body {
+    margin:0px;
+    padding:0px;
+    background-color:#FDF7A2; /* THIS COLOR IS YELLOW*/
+    font-family:'Source Sans Pro', Helvetica, sans-serif;
+    font-size:1.5em;
+    font-weight:300;
+    color:#000000;
+}
+h1, h2, h3 {
+    margin:0px;
+    padding:0px;
+    color:#CF3526;  /*this color is Red */
+}
+h1 {
+    font-size:2.3em;
+}
+p {
+    line-height:20px;
+    margin:1.5em 0px;
+	
+}
+strong, b {
+    color:#CF3526;   /*this color is Red */
+}
+a {
+    color:#FDF7A2; /* THIS COLOR IS YELLOW*/
+    text-decoration:none;
+}
+a:hover {
+    color:#000;  
+    text-decoration:underline;
+}
+
+figure {
+    margin:0px;
+    padding:0px;
+}
+
+
+/*HEADER STYLES===================================================================================
+*/
+
+header {
+    background-color:#CF3526; /*this color is red*/
+    height:15%;
+    width:100%;
+}
+
+#header {
+    position:relative;
+    padding:.1em ;
+}
+
+#logo {
+    color:#FDF7A2;/* THIS COLOR IS YELLOW*/
+}
+
+#logo {
+    width:35em;
+    position:absolute;
+    left:5%;
+}
+
+#logo:hover {
+    color:#000;
+    text-decoration:none;
+}
+
+/*NAVIGATION STYLES===================================================================================
+*/
+
+.bottom {
+    top:1em;
+}
+
+#menu {
+    top:1em;
+    right:5%; /* this keeps it 5% from the right side*/
+    
+}
+
+#menu li {
+    display:inline;
+    text-transform:uppercase;
+    font-weight:700;
+    font-size:1.2em;
+}
+
+
+
+.active a {
+    color:#000;
+}
+
+
+/*   BANNER STYLES===========================================================================    
+*/
+
+.jumbotron {
+    width: 100%;
+    background-color: #000;
+    border-top:3px solid #FDF7A2 ;
+    color:#fff;
+    padding:0;
+    border-bottom:4px solid #CF3526;
+}
+
+.jumbotron .sign {
+    margin:0 auto;
+    text-align:center;
+    font-size:6em;
+    color:#fff;
+    text-shadow:6px 6px 4px #000;
+    font-weight:700;
+    padding:10px 15px;
+    text-transform:uppercase;
+}
+.show-sm {
+    color:black;
+}
+
+/*    MAIN STYLES===========================================================================    
+*/
+section {
+    background-color:#;
+}
+.column {
+    margin:0 auto;
+    text-align:center;
+    margin-bottom:1em;
+}
+.mainBody {
+
+    width:90%;
+    overflow:hidden;
+    margin:0px auto;
+    
+}
+
+.headline {
+	text-align:center;
+	font-weight:700;
+	padding-top:15px;
+}
+
+.info {
+	text-align:center;
+}
+
+.border {
+    border:solid 15px white;
+}
+
+/*BUTTON STYLES=========================================================================================
+*/
+
+a.button {
+    background-color:#CF3526;  /* this color is red */
+    color:#fff;
+    padding:10px 15px;
+    border-radius:20px;
+    text-align:center;
+    text-transform:uppercase;
+    font-weight:500;
+
+}
+
+a.button:hover {
+    background-color:#000;
+    color:#fff;
+    text-decoration:none;
+}
+
+.centerButton {
+    width:258px;
+	margin:0px auto;
+}
+.menuButton {
+	text-align:center;
+	margin:25px auto;	
+}
+
+#bioButton {
+	background-color:#CF3526;  /* this color is red */
+    color:#fff;
+    padding:10px 15px;
+    border-radius:20px;
+    text-align:center;
+    text-transform:uppercase;
+    font-weight:500;
+}
+
+#bioButton:hover{
+	background-color:#000;
+    color:#fff;
+    text-decoration:none;
+}
+
+
+
+
+
+/*
+ABOUT STYLES==================================================================================================
+*/
+
+.alignLeft {
+    float:left;
+    width:384px;
+    margin-right:24px;
+}
+
+.alignRight {
+    float:right;
+    width:788px;
+}
+
+#aboutMe {
+    margin-top:100px;
+	margin-bottom:20px;
+}
+
+#wrap{
+	display:none;
+}
+
+/*CONTACT US STYLES=============================================================================================
+*/
+.contactMap {
+	margin-top:50px;
+}
+#map {
+	width:1000px;
+	margin:0px auto;
+	
+}
+#mapMover {
+	margin: 0px, auto;
+}
+
+
+
+
+
+
+
+
+/*FOOTER========================================================================================================
+*/
+footer {
+	width:100%;
+    margin-top:20px;
+    clear:both;
+    display:inline;
+	color:#fff;
+}
+
+#copyright {
+    background-color:#000;
+    overflow:hidden;
+    padding:20px 0px;
+    border-top:4px solid #CF3526;
+    display:block;
+}
+
+footer p {
+    text-align:center;
+    font-size:1.35em;
+    margin:0 0;
+}
+
+#copyright a {
+    color:#CF3526;
+}
+
+#copyright a:hover {
+    color:#fff;
+}
+
+/*SOCIAL MEDIA ICON STYLES===================================================================================
+*/
+.social {
+    text-align:center;
+}
+
+.fa {
+    border:3px solid #000;
+    background-color:#3399FF;
+    color:#fff;
+    padding:10px 15px;
+    border-radius:20px;
+    text-align:center;
+    text-transform:uppercase;
+    font-weight:500;
+    margin:15px;
+    }
+
+.fa:hover {
+    background-color:#CF3526;
+    color:#fff;
+    text-decoration:none;
+}
+
+.fa-facebook {
+    background-color:#0C516E;
+}
+
+.fa-twitter {
+    background-color:#8CA6D9;
+}
+
+
