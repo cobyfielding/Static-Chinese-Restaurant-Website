@@ -41,9 +41,11 @@ a {
     color:#FDF7A2; /* THIS COLOR IS YELLOW*/
     text-decoration:none;
 }
-a:hover {
+
+a :hover {
     color:#000;  
     text-decoration:underline;
+    background-color: #000;
 }
 
 figure {
@@ -157,7 +159,9 @@ section {
 	font-weight:700;
 	padding-top:15px;
 }
-
+.headline p {
+    font-size: 1.5em;
+}
 .info {
 	text-align:center;
 }
@@ -165,26 +169,22 @@ section {
 .border {
     border:solid 15px white;
 }
+.border2 {
+    border:solid 5px black;
+}
+ul li {
+    list-style-type: none;
+}
 
 /*BUTTON STYLES=========================================================================================
 */
 
-a.button {
-    background-color:#CF3526;  /* this color is red */
-    color:#fff;
-    padding:10px 15px;
-    border-radius:20px;
-    text-align:center;
-    text-transform:uppercase;
-    font-weight:500;
 
+.address {
+    color:red;
 }
 
-a.button:hover {
-    background-color:#000;
-    color:#fff;
-    text-decoration:none;
-}
+
 
 .centerButton {
     width:258px;
