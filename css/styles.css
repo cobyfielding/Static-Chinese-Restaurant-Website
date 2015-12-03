@@ -11,6 +11,7 @@ GLOBAL STYLES
  */
 html, body {
     height:100%;
+    overflow-x: hidden;
 }
 body {
     margin:0px;
@@ -20,6 +21,8 @@ body {
     font-size:1.5em;
     font-weight:400;
     color:#000000;
+
+
 }
 h1, h2, h3 {
     margin:0px;
@@ -32,8 +35,16 @@ h1 {
 p {
     line-height:20px;
     margin:1.5em 0px;
-
+    font-weight: 400;
+    font-family: cursive;
+    font-size: 1.3em;
 }
+span {
+  font-weight: 500;
+  font-size:1.5em;
+  color: #CF3526;
+}
+
 strong, b {
     color:#CF3526;   /*this color is Red */
 }
@@ -82,7 +93,9 @@ header {
     color:#000;
     text-decoration:none;
 }
-
+.black {
+  color:#000;
+}
 /*NAVIGATION STYLES===================================================================================
 */
 
@@ -103,6 +116,11 @@ header {
     font-size:1.2em;
 }
 
+#menu li a:hover {
+  background-color:#000;
+  color:#FDF7A2;
+  border-radius: 25px 15px;
+}
 
 
 .active a {
@@ -138,9 +156,7 @@ header {
 
 /*    MAIN STYLES===========================================================================
 */
-section {
-    background-color:#;
-}
+
 .column {
     margin:0 auto;
     text-align:center;
@@ -175,10 +191,21 @@ section {
 ul li {
     list-style-type: none;
 }
+.bigger {
+  font-weight:500;
+  font-size:1.3em;
+}
 
 /*BUTTON STYLES=========================================================================================
 */
-
+.btn {
+  color: #fff;
+  background-color: #CF3526;
+}
+.over:hover {
+  background-color:#FDF7A2;
+  color:#000;
+}
 
 .address {
     color:red;
