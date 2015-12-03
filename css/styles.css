@@ -6,7 +6,7 @@ GLOBAL STYLES
 ====================================================================================
 */
 
- /*    
+ /*
  * {global attribute tag for CSS}
  */
 html, body {
@@ -16,9 +16,9 @@ body {
     margin:0px;
     padding:0px;
     background-color:#FDF7A2; /* THIS COLOR IS YELLOW*/
-    font-family:'Source Sans Pro', Helvetica, sans-serif;
+    font-family:'Robot Mono', Helvetica, sans-serif;
     font-size:1.5em;
-    font-weight:300;
+    font-weight:400;
     color:#000000;
 }
 h1, h2, h3 {
@@ -32,7 +32,7 @@ h1 {
 p {
     line-height:20px;
     margin:1.5em 0px;
-	
+
 }
 strong, b {
     color:#CF3526;   /*this color is Red */
@@ -43,7 +43,7 @@ a {
 }
 
 a :hover {
-    color:#000;  
+    color:#000;
     text-decoration:underline;
     background-color: #000;
 }
@@ -93,7 +93,7 @@ header {
 #menu {
     top:1em;
     right:5%; /* this keeps it 5% from the right side*/
-    
+
 }
 
 #menu li {
@@ -110,7 +110,7 @@ header {
 }
 
 
-/*   BANNER STYLES===========================================================================    
+/*   BANNER STYLES===========================================================================
 */
 
 .jumbotron {
@@ -136,7 +136,7 @@ header {
     color:black;
 }
 
-/*    MAIN STYLES===========================================================================    
+/*    MAIN STYLES===========================================================================
 */
 section {
     background-color:#;
@@ -151,7 +151,7 @@ section {
     width:90%;
     overflow:hidden;
     margin:0px auto;
-    
+
 }
 
 .headline {
@@ -186,59 +186,16 @@ ul li {
 
 
 
-.centerButton {
-    width:258px;
-	margin:0px auto;
-}
-.menuButton {
-	text-align:center;
-	margin:25px auto;	
-}
-
-#bioButton {
-	background-color:#CF3526;  /* this color is red */
-    color:#fff;
-    padding:10px 15px;
-    border-radius:20px;
-    text-align:center;
-    text-transform:uppercase;
-    font-weight:500;
-}
-
-#bioButton:hover{
-	background-color:#000;
-    color:#fff;
-    text-decoration:none;
-}
-
-
-
 
 
 /*
-ABOUT STYLES==================================================================================================
+MENU STYLES==================================================================================================
 */
 
-.alignLeft {
-    float:left;
-    width:384px;
-    margin-right:24px;
+.font-change {
+  font-family:  'Roboto Mono', ;
+  font-weight: 400;
 }
-
-.alignRight {
-    float:right;
-    width:788px;
-}
-
-#aboutMe {
-    margin-top:100px;
-	margin-bottom:20px;
-}
-
-#wrap{
-	display:none;
-}
-
 /*CONTACT US STYLES=============================================================================================
 */
 .contactMap {
@@ -247,7 +204,7 @@ ABOUT STYLES====================================================================
 #map {
 	width:1000px;
 	margin:0px auto;
-	
+
 }
 #mapMover {
 	margin: 0px, auto;
@@ -323,5 +280,3 @@ footer p {
 .fa-twitter {
     background-color:#8CA6D9;
 }
-
-
